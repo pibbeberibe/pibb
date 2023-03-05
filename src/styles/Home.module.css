@@ -1,0 +1,45 @@
+.main {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    width: 100vw;
+    padding: .75rem 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 13rem;
+  height: auto;
+
+  margin-right: .5rem;
+}
+
+.headerLinks {
+  
+}
+
+.headerLinks a {
+  color: var(--primary-text-color);
+
+  transition-duration: .3s;
+}
+
+.headerLinks a+a {
+  margin-left: .5rem;
+}
+
+.headerLinks a:hover {
+  color: var(--active-text-color);
+}
